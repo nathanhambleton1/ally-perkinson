@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     Only 6 things still need real values. Search for  EDIT:
+       1. canonical / og:url  (final domain)
+       2. assets/ally.jpg     (her photo)
+       3. phone number        (tel: + visible text + ld+json)
+       4. email address       (mailto: + visible text + ld+json)
+       5. scheduling link     (hero button)
+       6. scheduling link     (the embed, same URL)
+     ═══════════════════════════════════════════════════════════════ -->
+
+<title>Alexandra Perkinson · Anesthesiology Locum Tenens · Weatherby Healthcare</title>
+<meta name="description" content="Alexandra Perkinson, Associate Recruiter for Anesthesiology at Weatherby Healthcare in Raleigh, NC. Connecting anesthesiologists with locum tenens assignments that fit their goals and their life.">
+
+<!-- EDIT 1: set this to the final domain so link previews + the QR code work -->
+<link rel="canonical" href="https://allyperkinson.com/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Alexandra Perkinson · Weatherby Healthcare">
+<meta property="og:description" content="Associate Recruiter, Anesthesiology. Connecting anesthesiologists with locum tenens opportunities that genuinely fit.">
+<meta property="og:image" content="https://allyperkinson.com/assets/ally.jpg">
+<meta property="og:url" content="https://allyperkinson.com/">
+<meta property="profile:first_name" content="Alexandra">
+<meta property="profile:last_name" content="Perkinson">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Weatherby's own favicon set, pulled from their site -->
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#dc0032">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300..900;1,400&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="wrap topbar__in">
+    <a class="topbar__logo" href="https://weatherbyhealthcare.com/" target="_blank" rel="noopener">
+      <img src="assets/wby_logo.svg" alt="Weatherby Healthcare" width="190" height="49">
+    </a>
+    <span class="topbar__kicker">Anesthesiology &middot; Locum Tenens</span>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ── Hero ───────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="wrap hero__in">
+
+      <div class="hero__photo">
+        <!-- EDIT 2: swap in her photo. Square crop, 800×800 or larger. -->
+        <img src="assets/ally.jpg" alt="Alexandra Perkinson" width="800" height="800">
+        <span class="hero__photo-angle" aria-hidden="true"></span>
+      </div>
+
+      <div class="hero__copy">
+        <p class="eyebrow">Weatherby Healthcare &middot; Raleigh, NC</p>
+        <h1>Alexandra&nbsp;Perkinson</h1>
+        <p class="role">Associate Recruiter &middot; Anesthesiology</p>
+        <p class="lede">
+          I connect anesthesiologists with locum tenens assignments nationwide that
+          genuinely fit their goals and their lifestyle. Then my team handles the licensing,
+          credentialing, malpractice, and travel so you don't have to.
+        </p>
+
+        <div class="cta">
+          <!-- EDIT 5: her Sense scheduling link (also EDIT 6 below) -->
+          <a class="btn btn--primary" href="https://snshqsc.co/vJAcd0" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v2M17 3v2M3.5 8.5h17M5 5.5h14a1.5 1.5 0 0 1 1.5 1.5v12A1.5 1.5 0 0 1 19 20.5H5A1.5 1.5 0 0 1 3.5 19V7A1.5 1.5 0 0 1 5 5.5Z"/></svg>
+            Schedule a call
+          </a>
+          <button class="btn btn--quiet" type="button" data-share>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h2v2h-2zM18 14h2v2h-2zM16 16h2v2h-2zM14 18h2v2h-2zM18 18h2v2h-2z"/></svg>
+            Share / QR
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact tiles ──────────────────────────────────────── -->
+  <section class="contacts" aria-label="Contact details">
+    <div class="wrap contacts__grid">
+
+      <!-- EDIT 3: her direct line — update the tel: link AND the visible text -->
+      <a class="tile" href="tel:+19196591646" data-vc-phone="+1 919 659 1646">
+        <svg class="tile__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3A2 2 0 0 1 18.4 21C10.4 20.4 3.6 13.6 3 5.6a2 2 0 0 1 2-2.1Z"/></svg>
+        <span class="tile__label">Call or text</span>
+        <span class="tile__value">(919) 659-1646</span>
+      </a>
+
+      <!-- EDIT 4: her work email — update the mailto: link AND the visible text -->
+      <a class="tile" href="mailto:alexandra.perkinson@weatherbyhealthcare.com" data-vc-email="alexandra.perkinson@weatherbyhealthcare.com">
+        <svg class="tile__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5h17v11h-17zM3.5 7l8.5 6 8.5-6"/></svg>
+        <span class="tile__label">Email</span>
+        <span class="tile__value tile__value--wrap">alexandra.perkinson@<wbr>weatherbyhealthcare.com</span>
+      </a>
+
+      <a class="tile" href="https://www.linkedin.com/in/alexandraperkinson/" target="_blank" rel="noopener">
+        <svg class="tile__icon tile__icon--brand" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        <span class="tile__label">LinkedIn</span>
+        <span class="tile__value">/alexandraperkinson</span>
+      </a>
+
+      <a class="tile"
+         href="https://www.google.com/maps/search/?api=1&amp;query=Weatherby%20Healthcare%2C%204000%20Center%20at%20North%20Hills%20Street%2C%20Suite%20750%2C%20Raleigh%2C%20NC%2027609"
+         target="_blank" rel="noopener">
+        <svg class="tile__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span class="tile__label">Raleigh office</span>
+        <span class="tile__value tile__value--wrap">4000 Center at North Hills St<br>Ste&nbsp;750, Raleigh, NC 27609</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ── About ──────────────────────────────────────────────── -->
+  <section class="about">
+    <div class="wrap about__in">
+      <div class="about__copy">
+        <h2><span class="rule" aria-hidden="true"></span>A little about me</h2>
+        <p>
+          I'm an Associate Recruiter with Weatherby Healthcare, part of CHG Healthcare,
+          and I work exclusively with anesthesiology. My work is all about relationships.
+          I understand what physicians need to thrive, and I connect them with locum
+          tenens opportunities that genuinely fit their goals and their lifestyle.
+        </p>
+        <p>
+          I bring natural curiosity and genuine care to every conversation, and that
+          shows up in how I listen and build trust with the physicians I work with. So
+          you'll get a real conversation about your license, your schedule, and your
+          non-negotiables, not a blast email. I'll only bring you assignments
+          worth your time.
+        </p>
+        <p class="about__meta">
+          Anesthesiology team, Raleigh office &middot; Trained at CHG Healthcare
+          headquarters in Salt Lake City &middot; B.A. Organizational Communication,
+          NC&nbsp;State
+        </p>
+      </div>
+
+      <div class="about__panel">
+        <h3>How I can help</h3>
+        <ul class="checks">
+          <li>Locum assignments matched to your subspecialty and license</li>
+          <li>State licensing &amp; credentialing handled for you</li>
+          <li>Malpractice coverage, travel, and lodging arranged</li>
+          <li>Short-term coverage, ongoing blocks, or locums-to-perm</li>
+          <li>An honest answer on rates before you invest your time</li>
+        </ul>
+        <p class="panel__link">
+          <a href="https://weatherbyhealthcare.com/locum-tenens-physician-jobs/anesthesiology" target="_blank" rel="noopener">
+            Browse open anesthesiology assignments &rarr;
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Scheduling ─────────────────────────────────────────── -->
+  <section class="schedule" id="schedule">
+    <div class="wrap">
+      <h2 class="schedule__h">Grab a time that works for you</h2>
+      <p class="schedule__sub">Fifteen minutes, no pressure. Tell me what you're looking for in your next assignment and I'll tell you honestly whether I can help.</p>
+
+      <!-- EDIT 6: same scheduling URL as EDIT 5 (her Sense booking link). -->
+      <div class="schedule__embed" data-embed-src="https://snshqsc.co/vJAcd0">
+        <noscript><p>Enable JavaScript to load the scheduler, or email me directly.</p></noscript>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <a href="https://weatherbyhealthcare.com/" target="_blank" rel="noopener" class="footer__logo">
+      <img src="assets/wby_logo.svg" alt="Weatherby Healthcare" width="160" height="41">
+    </a>
+    <nav class="footer__links">
+      <a href="https://weatherbyhealthcare.com/" target="_blank" rel="noopener">Weatherby Healthcare</a>
+      <a href="https://weatherbyhealthcare.com/locum-tenens-physician-jobs/anesthesiology" target="_blank" rel="noopener">Anesthesiology jobs</a>
+      <a href="https://www.linkedin.com/in/alexandraperkinson/" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+    <p class="footer__fine">
+      &copy; <span data-year>2026</span> Alexandra Perkinson &middot; Associate Recruiter, Anesthesiology.
+      Weatherby Healthcare is a division of CHG Healthcare. The Weatherby name and logo are
+      trademarks of their respective owner, used here to identify my employer.
+    </p>
+  </div>
+</footer>
+
+<!-- QR / share dialog -->
+<dialog class="qr" data-qr-dialog>
+  <button class="qr__x" type="button" data-qr-close aria-label="Close">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 5.5l13 13M18.5 5.5l-13 13"/></svg>
+  </button>
+
+  <div class="qr__head">
+    <p class="qr__eyebrow" data-qr-eyebrow>Scan or copy</p>
+    <h3>Save this contact</h3>
+  </div>
+
+  <div class="qr__code-card">
+    <div class="qr__code" data-qr-target></div>
+  </div>
+
+  <div class="qr__info">
+    <div class="qr__row qr__row--name">
+      <img class="qr__avatar" src="assets/ally.jpg" alt="" width="34" height="34">
+      <p class="qr__name" data-qr-name></p>
+    </div>
+    <div class="qr__row">
+      <span class="qr__row-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3A2 2 0 0 1 18.4 21C10.4 20.4 3.6 13.6 3 5.6a2 2 0 0 1 2-2.1Z"/></svg>
+      </span>
+      <p class="qr__detail" data-qr-phone></p>
+    </div>
+    <div class="qr__row">
+      <span class="qr__row-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5h17v11h-17zM3.5 7l8.5 6 8.5-6"/></svg>
+      </span>
+      <p class="qr__detail" data-qr-email></p>
+    </div>
+  </div>
+
+  <div class="qr__actions">
+    <button class="btn btn--primary btn--sm" type="button" data-copy-link>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+      <span data-copy-label>Copy link</span>
+    </button>
+    <button class="btn btn--ghost btn--sm" type="button" data-qr-close>Close</button>
+  </div>
+</dialog>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Alexandra Perkinson",
+  "givenName": "Alexandra",
+  "familyName": "Perkinson",
+  "jobTitle": "Associate Recruiter, Anesthesiology",
+  "description": "Associate Recruiter at Weatherby Healthcare connecting anesthesiologists with locum tenens assignments nationwide.",
+  "worksFor": { "@type": "Organization", "name": "Weatherby Healthcare", "url": "https://weatherbyhealthcare.com/", "parentOrganization": { "@type": "Organization", "name": "CHG Healthcare" } },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "North Carolina State University" },
+  "workLocation": { "@type": "Place", "name": "Weatherby Healthcare, Raleigh", "address": { "@type": "PostalAddress", "streetAddress": "4000 Center at North Hills Street, Suite 750", "addressLocality": "Raleigh", "addressRegion": "NC", "postalCode": "27609", "addressCountry": "US" } },
+  "knowsAbout": ["Locum Tenens", "Physician Recruitment", "Anesthesiology"],
+  "email": "alexandra.perkinson@weatherbyhealthcare.com",
+  "telephone": "+1-919-659-1646",
+  "sameAs": ["https://www.linkedin.com/in/alexandraperkinson/"]
+}
+</script>
+
+<script src="main.js"></script>
+</body>
+</html>
